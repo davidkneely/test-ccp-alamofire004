@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852FC7CF71EBDD406C102E44 /* Pods_test_ccp_alamofire004Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1C2F3EE0BB94D0B7E810CF /* Pods_test_ccp_alamofire004Tests.framework */; };
 		A7DE11EB1E161B290009EF26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE11EA1E161B290009EF26 /* AppDelegate.swift */; };
 		A7DE11ED1E161B290009EF26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE11EC1E161B290009EF26 /* ViewController.swift */; };
 		A7DE11F01E161B290009EF26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DE11EE1E161B290009EF26 /* Main.storyboard */; };
 		A7DE11F21E161B290009EF26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7DE11F11E161B290009EF26 /* Assets.xcassets */; };
 		A7DE11F51E161B290009EF26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7DE11F31E161B290009EF26 /* LaunchScreen.storyboard */; };
 		A7DE12001E161B290009EF26 /* test_ccp_alamofire004Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DE11FF1E161B290009EF26 /* test_ccp_alamofire004Tests.swift */; };
+		BD27CA73120146FA11FFDB33 /* Pods_test_ccp_alamofire004.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B3E18893EC4289DDB0B33F /* Pods_test_ccp_alamofire004.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08C6C122857D821BE20135EB /* Pods-test-ccp-alamofire004.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ccp-alamofire004.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-ccp-alamofire004/Pods-test-ccp-alamofire004.debug.xcconfig"; sourceTree = "<group>"; };
+		58F5B1782D7F07AFAB7D07A0 /* Pods-test-ccp-alamofire004Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ccp-alamofire004Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test-ccp-alamofire004Tests/Pods-test-ccp-alamofire004Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F1C2F3EE0BB94D0B7E810CF /* Pods_test_ccp_alamofire004Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ccp_alamofire004Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77486C5C5EBEA22513152A30 /* Pods-test-ccp-alamofire004Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ccp-alamofire004Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-ccp-alamofire004Tests/Pods-test-ccp-alamofire004Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9B2EE556E12CB8CF541AC827 /* Pods-test-ccp-alamofire004.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test-ccp-alamofire004.release.xcconfig"; path = "Pods/Target Support Files/Pods-test-ccp-alamofire004/Pods-test-ccp-alamofire004.release.xcconfig"; sourceTree = "<group>"; };
+		A1B3E18893EC4289DDB0B33F /* Pods_test_ccp_alamofire004.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test_ccp_alamofire004.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DE11E71E161B280009EF26 /* test-ccp-alamofire004.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ccp-alamofire004.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DE11EA1E161B290009EF26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7DE11EC1E161B290009EF26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD27CA73120146FA11FFDB33 /* Pods_test_ccp_alamofire004.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852FC7CF71EBDD406C102E44 /* Pods_test_ccp_alamofire004Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56F344D421CABB6959FD9B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3E18893EC4289DDB0B33F /* Pods_test_ccp_alamofire004.framework */,
+				5F1C2F3EE0BB94D0B7E810CF /* Pods_test_ccp_alamofire004Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F7F5EE53E6C87E30097DC04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08C6C122857D821BE20135EB /* Pods-test-ccp-alamofire004.debug.xcconfig */,
+				9B2EE556E12CB8CF541AC827 /* Pods-test-ccp-alamofire004.release.xcconfig */,
+				58F5B1782D7F07AFAB7D07A0 /* Pods-test-ccp-alamofire004Tests.debug.xcconfig */,
+				77486C5C5EBEA22513152A30 /* Pods-test-ccp-alamofire004Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A7DE11DE1E161B280009EF26 = {
 			isa = PBXGroup;
 			children = (
 				A7DE11E91E161B280009EF26 /* test-ccp-alamofire004 */,
 				A7DE11FE1E161B290009EF26 /* test-ccp-alamofire004Tests */,
 				A7DE11E81E161B280009EF26 /* Products */,
+				7F7F5EE53E6C87E30097DC04 /* Pods */,
+				56F344D421CABB6959FD9B50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7DE12041E161B290009EF26 /* Build configuration list for PBXNativeTarget "test-ccp-alamofire004" */;
 			buildPhases = (
+				D8DA4FA26F74ADD45579A9E4 /* [CP] Check Pods Manifest.lock */,
 				A7DE11E31E161B280009EF26 /* Sources */,
 				A7DE11E41E161B280009EF26 /* Frameworks */,
 				A7DE11E51E161B280009EF26 /* Resources */,
+				91EE8CEDEDA7F3F3F90C0009 /* [CP] Embed Pods Frameworks */,
+				BAC443EA064EE261E337EBBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7DE12071E161B290009EF26 /* Build configuration list for PBXNativeTarget "test-ccp-alamofire004Tests" */;
 			buildPhases = (
+				57414B6EDC68BAB4C8150A17 /* [CP] Check Pods Manifest.lock */,
 				A7DE11F71E161B290009EF26 /* Sources */,
 				A7DE11F81E161B290009EF26 /* Frameworks */,
 				A7DE11F91E161B290009EF26 /* Resources */,
+				AE1F1F7E28F4C2779B936772 /* [CP] Embed Pods Frameworks */,
+				5F118ADEA44B9CCBD55538CB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +233,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57414B6EDC68BAB4C8150A17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F118ADEA44B9CCBD55538CB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ccp-alamofire004Tests/Pods-test-ccp-alamofire004Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91EE8CEDEDA7F3F3F90C0009 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ccp-alamofire004/Pods-test-ccp-alamofire004-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE1F1F7E28F4C2779B936772 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ccp-alamofire004Tests/Pods-test-ccp-alamofire004Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAC443EA064EE261E337EBBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-test-ccp-alamofire004/Pods-test-ccp-alamofire004-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8DA4FA26F74ADD45579A9E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7DE11E31E161B280009EF26 /* Sources */ = {
@@ -337,6 +468,7 @@
 		};
 		A7DE12051E161B290009EF26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08C6C122857D821BE20135EB /* Pods-test-ccp-alamofire004.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EPF99BXA3K;
@@ -350,6 +482,7 @@
 		};
 		A7DE12061E161B290009EF26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B2EE556E12CB8CF541AC827 /* Pods-test-ccp-alamofire004.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EPF99BXA3K;
@@ -363,6 +496,7 @@
 		};
 		A7DE12081E161B290009EF26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F5B1782D7F07AFAB7D07A0 /* Pods-test-ccp-alamofire004Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -378,6 +512,7 @@
 		};
 		A7DE12091E161B290009EF26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77486C5C5EBEA22513152A30 /* Pods-test-ccp-alamofire004Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

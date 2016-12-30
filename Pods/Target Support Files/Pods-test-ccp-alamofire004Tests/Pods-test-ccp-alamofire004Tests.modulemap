@@ -1,0 +1,6 @@
+framework module Pods_test_ccp_alamofire004Tests {
+  umbrella header "Pods-test-ccp-alamofire004Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
